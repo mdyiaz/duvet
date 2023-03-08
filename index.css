@@ -1,0 +1,7 @@
+.productBox:hover {
+    transform: translate(0px, -10px);
+}
+
+.productBox {
+    transition: 0.5s;
+}
