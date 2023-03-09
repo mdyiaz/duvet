@@ -5,3 +5,22 @@
 .productBox {
     transition: 0.5s;
 }
+
+
+
+.button {
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+
+.btnn:hover {
+    /* bg-white rounded-full px-10 py-3 text-xl  */
+    background-color: white ;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}

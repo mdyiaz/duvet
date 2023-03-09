@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+
+
+    <link rel="stylesheet" href="index.css">
+
+    <!-- fontawesome___________________ -->
+    <script src="https://kit.fontawesome.com/cfa78000ac.js" crossorigin="anonymous"></script>
+</head>
+<body style="direction: rtl;">
+    
+
+    <div class="container mx-auto mt-10">
+
+
+        <div class="flex gap-10 text-lg mb-10">
+            <h1>الصفحة الرئيسية</h1> 
+           
+            <h1>المعلومات الشخصية</h1>
+        </div>
+
+
+
+        <div class="grid lg:grid-cols-3 grid-cols-1 mt-5 gap-10">
+            <div class="bg-black rounded-2xl py-8 px-5 h-64">
+                <h1><span class="bg-white rounded-full px-10 py-3 text-xl "> <i class="fas fa-user ml-2"></i>المعلومات الشخصية </span></h1>
+
+                <p class="text-white mt-5 pr-5 text-xl btnn"><span> <i class="fas fa-map-marker-alt ml-2"></i> دليل العناوين</span></p>
+
+                <p class="text-white mt-5 pr-5 text-xl btnn"><span> <i class="fas fa-unlock-alt ml-2"></i> الطلبات</span></p>
+
+                <button>
+
+                    <p class="text-white mt-5 pr-5 text-xl btnn"><span> <i class="fas fa-sign-out-alt ml-2 ml-2"></i> تسجيل خروج</span></p>
+
+                </button>
+
+                
+            </div>
+
+
+            <div class="col-span-2">
+                <form>
+                    <h1 class="text-4xl">المعلومات الشخصية</h1>
+
+                    <div class="form-control w-full max-w-xs mt-3 text-xl">
+                        <label class="label">
+                          <span class="label-text">الاسم الكامل</span>                       
+                        </label>
+                        <input type="text" placeholder="" class="input input-bordered w-full max-w-xs" />
+                    </div>
+
+                    <div class="form-control w-full max-w-xs mt-3 text-xl">
+                        <label class="label">
+                          <span class="label-text"> رقم الجوال</span>                       
+                        </label>
+                        <input type="text" placeholder="" class="input input-bordered w-full max-w-xs" />
+                    </div>
+
+
+                    <div class="form-control w-full max-w-xs mt-3 text-xl">
+                        <label class="label">
+                          <span class="label-text"> البريد الإلكتروني</span>                       
+                        </label>
+                        <input type="text" placeholder="" class="input input-bordered w-full max-w-xs" />
+                    </div>
+
+
+                    <div class="flex gap-5 mt-5">
+                        <input type="checkbox" checked="checked" class="checkbox" />
+                        <p>الاشتراك في النشرة الإخبارية</p>
+                    </div>
+
+
+                    <div class="flex justify-end w-full max-w-xs">
+                        <button type="submit" class="bg-black text-white mt-5 px-5 py-2 text-xl rounded-xl ">  حفظ </button>
+                    </div>
+
+                </form>
+
+
+                <div class="mt-20 mb-10">
+                    <h1 class="text-4xl">حذف الحساب</h1>
+                    <hr class="mt-2">
+
+                    <button class="mt-5 bg-black text-white px-7 py-2 rounded-lg">إحذف حسابي</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
