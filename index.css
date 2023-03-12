@@ -36,3 +36,11 @@
 .f-btn:hover {
     border: 1px solid white;
 }
+
+.cart-height {
+    height: fit-content;
+}
+
+/* .btn-size {
+   width: 20px;
+} */
