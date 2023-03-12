@@ -45,3 +45,17 @@
    width: 20px;
 } */
 
+.my-element {
+    
+    padding: 10px;
+    transition: all 0.2s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .my-element:hover {
+    border: 1px solid #008080; /* Change the border on hover */
+    background-color: #f7f7f7;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
